@@ -1,0 +1,32 @@
+.mainBlock {
+    height: 100vh;
+    background: #111111;
+}
+
+.mainText {
+    background-color: #2a2828;
+    width: 300px;
+    color: #5e9d9e;
+}
+
+.firstName {
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+.lastName {
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+.mainPhoto {
+    background-color: #2a2828;
+    width: 500px;
+    height: 600px;
+}

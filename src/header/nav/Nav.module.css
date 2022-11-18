@@ -1,0 +1,10 @@
+.nav {
+    width: 400px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #5e9d9e;
+}
