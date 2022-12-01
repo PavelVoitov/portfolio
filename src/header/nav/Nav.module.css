@@ -3,8 +3,14 @@
     border: 1px solid;
     display: flex;
     justify-content: space-between;
+    /*justify-content: space-around;*/
 }
 
-a {
-    color: #5e9d9e;
+.nav a {
+    color: #00d3bc;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #fdfdfd;
 }

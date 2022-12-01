@@ -1,20 +1,26 @@
 import React from "react";
+import s from './Works.module.css'
+import {Work} from "./work/Work"
+import styleContainer from '../common/styles/Container.module.css'
+import todolist from '../common/images/todolist.PNG'
+import socialNetwork from '../common/images/socialnetworks.PNG'
+import counter from '../common/images/counter.PNG'
 
-const skills = [
+const works = [
     {
         title: 'To-do list',
         description: 'Web-application for every day on a week',
-        img: ''
+        img: todolist
     },
     {
         title: 'Social network',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: ''
+        description: 'Social network in 8-bit style',
+        img: socialNetwork
     },
     {
         title: 'Counter',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: 'awdwa'
+        description: 'Educational application aimed at developing logic and improving skills',
+        img: counter
     },
 
 ]
@@ -22,16 +28,15 @@ const skills = [
 
 export const Works = () => {
     return (
-        <div>dadw</div>
-        // <div className={s.skillsBlock}>
-        //     <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-        //         <h2 className={s.title}>My works</h2>
-        //         <div className={s.skills}>
-        //             {skills.map(el => {
-        //                 return <Work title={el.title} description={el.description} img={el.img}/>
-        //             })}
-        //         </div>
-        //     </div>
-        // </div>
+        <div className={s.worksBlock}>
+            <div className={`${styleContainer.container} ${s.worksContainer}`}>
+                <h2 className={s.title}>My works</h2>
+                <div className={s.works}>
+                    {works.map(el => {
+                        return <Work title={el.title} description={el.description} img={el.img}/>
+                    })}
+                </div>
+            </div>
+        </div>
     )
 }

@@ -1,0 +1,30 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    padding: 10px 5px 10px 5px;
+    /*background-color: #111111;*/
+    margin: 10px 0 50px 0;
+}
+
+.icon {
+}
+
+.description {
+    width: 80%;
+    color: white;
+    /*background-color: firebrick;*/
+}
+
+@media only screen and (max-width: 550px) and (min-width: 0px) {
+    .skill {
+        width: 250px;
+    }
+
+    .description {
+        width: 90%;
+    }
+}
