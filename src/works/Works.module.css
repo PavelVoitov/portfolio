@@ -7,13 +7,10 @@
 .worksContainer {
     flex-direction: column;
     justify-content: flex-start;
-    /*border: 1px solid white;*/
     flex-wrap: wrap;
 }
 
 .title {
-    /*background-color: #2a2828;*/
-    /*width: 100%;*/
 }
 
 .works {
@@ -21,5 +18,4 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*border: 1px solid firebrick;*/
 }

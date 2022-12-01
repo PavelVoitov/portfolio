@@ -8,15 +8,9 @@
 .contactsContainer {
     display: flex;
     flex-direction: column;
-
-    /*justify-content: flex-start;*/
-    /*border: 1px solid white;*/
-
 }
 
 .title {
-    /*background-color: #2a2828;*/
-    /*width: 100%;*/
 }
 
 .formBlock {
@@ -38,7 +32,6 @@
     display: block;
     background: none;
     padding: .5rem .8rem .5rem 0.5rem;
-    /*margin: .9vw 0;*/
     margin-bottom: 20px;
     border: 1px solid rgba(255,255,255,.1);
     font-size: 14px;

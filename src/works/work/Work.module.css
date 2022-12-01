@@ -3,15 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*text-align: center;*/
     width: 30%;
-    /*height: 300px;*/
-    /*padding: 10px 5px 10px 40px;*/
-    /*background-color: #111111;*/
-    /*margin: 10px 10px 50px 10px;*/
     margin: 10px 0 50px 0;
-    /*background-color: #aaaf18;*/
-    /*background-size:cover*/
 }
 
 .icon {
@@ -21,7 +14,6 @@
 .description {
     width: 100%;
     color: white;
-    /*background-color: firebrick;*/
 }
 
 .workImage {
@@ -32,7 +24,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-size:cover
+    background-size:cover;
+    background-position: center;
 }
 
 .textBlock {
